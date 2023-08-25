@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="17" failures="0" errors="0" time="3.398">
+  <testsuite name="ForbiddenError tests" errors="0" failures="0" skipped="0" timestamp="2022-08-22T12:57:56" time="0.746" tests="2">
+    <testcase classname="ForbiddenError tests should be instance of Error" name="ForbiddenError tests should be instance of Error" time="0.001">
+    </testcase>
+    <testcase classname="ForbiddenError tests should have message and status property" name="ForbiddenError tests should have message and status property" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="UnauthorizedError tests" errors="0" failures="0" skipped="0" timestamp="2022-08-22T12:57:56" time="0.757" tests="2">
+    <testcase classname="UnauthorizedError tests should be instance of Error" name="UnauthorizedError tests should be instance of Error" time="0.001">
+    </testcase>
+    <testcase classname="UnauthorizedError tests should have message and status property" name="UnauthorizedError tests should have message and status property" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="NotFoundError tests" errors="0" failures="0" skipped="0" timestamp="2022-08-22T12:57:56" time="0.756" tests="2">
+    <testcase classname="NotFoundError tests should be instance of Error" name="NotFoundError tests should be instance of Error" time="0.002">
+    </testcase>
+    <testcase classname="NotFoundError tests should have message and status property" name="NotFoundError tests should have message and status property" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="DefaultError tests" errors="0" failures="0" skipped="0" timestamp="2022-08-22T12:57:56" time="0.742" tests="2">
+    <testcase classname="DefaultError tests should be instance of Error" name="DefaultError tests should be instance of Error" time="0.002">
+    </testcase>
+    <testcase classname="DefaultError tests should have message and status property" name="DefaultError tests should have message and status property" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="ValidationError tests" errors="0" failures="0" skipped="0" timestamp="2022-08-22T12:57:56" time="0.799" tests="2">
+    <testcase classname="ValidationError tests should be instance of Error" name="ValidationError tests should be instance of Error" time="0.001">
+    </testcase>
+    <testcase classname="ValidationError tests should have message and status property" name="ValidationError tests should have message and status property" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="HealthController tests" errors="0" failures="0" skipped="0" timestamp="2022-08-22T12:57:56" time="0.815" tests="4">
+    <testcase classname="HealthController tests should have class methods" name="HealthController tests should have class methods" time="0.002">
+    </testcase>
+    <testcase classname="HealthController tests should check health" name="HealthController tests should check health" time="0.002">
+    </testcase>
+    <testcase classname="HealthController tests should return error" name="HealthController tests should return error" time="0.002">
+    </testcase>
+    <testcase classname="HealthController tests should get version" name="HealthController tests should get version" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="corsMiddleware tests" errors="0" failures="0" skipped="0" timestamp="2022-08-22T12:57:56" time="0.895" tests="3">
+    <testcase classname="corsMiddleware tests should be a function" name="corsMiddleware tests should be a function" time="0.002">
+    </testcase>
+    <testcase classname="corsMiddleware tests should set CORS headers on response" name="corsMiddleware tests should set CORS headers on response" time="0.001">
+    </testcase>
+    <testcase classname="corsMiddleware tests should send 200 status code" name="corsMiddleware tests should send 200 status code" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

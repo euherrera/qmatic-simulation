@@ -1,0 +1,25 @@
+extends index
+block body-content
+  // Header 
+  header#header
+    img(src='/static/img/wilko-logo.png') 
+    div.container 
+        // Signup Form
+        form#signup-form(method='post' action='/stores')
+            h1.title !{mainText}
+            p.message #{orderMessage}
+                input.hidden(name='orderId' value=query)
+                input.hidden(name='storeName' value=store)
+                input.hidden(name='shipId' value=shipId)
+                input.hidden(name='customerCheckedIn' value=customerCheckedIn)
+                input.hidden(name='status' value=status)
+            input.btn.btn-outline-light(type='submit' value='Sign into store')
+    // Footer
+    footer#footer
+        p
+            small &copy; 
+            a(href='https://wilko.com', target='_blank') wilko.com
+    // Scripts
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8' crossorigin='anonymous')
+
+    

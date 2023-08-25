@@ -1,0 +1,10 @@
+{
+    "empty": null,
+    "blueYonder": {
+      "base_url": "https://api-eu.jdadelivers.com/lof/store/v2/stores",
+      "client_id": "25263d0f-981d-413b-bfeb-41269d600ddd",
+      "client_secret": "xRm8Q~S2A51QkLW67IBnxiF~VlrI-jv9o-iUKa9B",
+      "grant_type": "client_credentials",
+      "scope": "https://blueyondereu.onmicrosoft.com/2f9952c7-1f8e-4050-af41-1f16b16525d8/.default"
+    }
+  }

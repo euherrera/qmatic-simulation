@@ -1,0 +1,9 @@
+body {background: #B44145;} 
+.card {width: 48rem; margin: 10% auto; } 
+#signup-form .formElems {border: 0; outline: 0; background: transparent; color: white;} 
+.title, .name {display: inline-block; margin-right: 5px;} 
+.hidden {display: none;} 
+#header, #footer {text-align: center;} 
+p, h1, small{ color: white;}
+.amber {color: orange; background: black;}
+.green { color: white; background: green;}
